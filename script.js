@@ -155,8 +155,8 @@ if (contactForm) {
     btn.style.opacity = '0.7';
 
     emailjs.sendForm(
-      "__SERVICE_ID__",
-      "__TEMPLATE_ID__",
+      'service_r5lqwge',
+      'template_d5nmvm9',
       this
     )
       .then(() => {
