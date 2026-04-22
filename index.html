@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Hasnain — AI Engineer & ML Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">&lt;</span>MH<span class="logo-bracket">/&gt;</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#certifications" class="mob-link">Certs</a></li>
+      <li><a href="#contact" class="mob-link">Hire Me</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">AI</div>
+    <div class="hero-content">
+      <div class="hero-tag reveal">
+        <span class="tag-dot"></span> Available for Freelance
+      </div>
+      <h1 class="hero-name reveal">
+        Muhammad<br />
+        <span class="italic-serif">Hasnain</span>
+      </h1>
+      <div class="hero-role reveal">
+        <span class="role-line"></span>
+        <span>AI Engineer &amp; ML Developer</span>
+        <span class="role-line"></span>
+      </div>
+      <p class="hero-sub reveal">
+        I build AI-driven solutions — from robust data pipelines and high-performing ML models to scalable deployments
+        and intelligent applications — creating measurable business value through automation, smarter decisions, and
+        innovation.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Let's Talk</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num">3.6</span>
+          <span class="stat-label">GPA / 4.0</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">4+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">ML Projects</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span>MH</span>
+        </div>
+        <div class="orbit orbit-1">
+          <div class="orbit-dot"></div>
+        </div>
+        <div class="orbit orbit-2">
+          <div class="orbit-dot"></div>
+        </div>
+      </div>
+      <div class="floating-cards">
+        <div class="fcard fcard-1">
+          <span class="fcard-icon">🤖</span>
+          <span>Deep Learning</span>
+        </div>
+        <div class="fcard fcard-2">
+          <span class="fcard-icon">⚙️</span>
+          <span>MLOps</span>
+        </div>
+        <div class="fcard fcard-3">
+          <span class="fcard-icon">☁️</span>
+          <span>AWS Deploy</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title reveal">
+            Building the bridge between<br />
+            <span class="italic-serif">data and decisions</span>
+          </h2>
+          <p class="reveal">
+            I specialize in AI engineering and machine learning, building solutions across the complete ML lifecycle —
+            from data analysis and feature engineering to model development, evaluation, and scalable cloud deployment.
+          </p>
+
+          <p class="reveal">
+            For clients and businesses, I deliver end-to-end solutions tailored to real-world needs — whether it's
+            predictive models, data pipelines, backend APIs, or intelligent web applications — with clean code, reliable
+            performance, and clear communication.
+          </p>
+          <div class="about-badges reveal">
+            <span class="badge">Python</span>
+            <span class="badge">ML/DL</span>
+            <span class="badge">Django</span>
+            <span class="badge">AWS</span>
+            <span class="badge">Docker</span>
+            <span class="badge">MLflow</span>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-info-card">
+            <h3>Education</h3>
+            <div class="edu-item">
+              <span class="edu-degree">B.Sc. Computer Science</span>
+              <span class="edu-school">NUML University</span>
+              <span class="edu-year">2024 – 2028</span>
+              <span class="edu-gpa">GPA: 3.6 / 4.0</span>
+            </div>
+            <div class="edu-item">
+              <span class="edu-degree">Intermediate In Computer Science</span>
+              <span class="edu-school">AIMS College, Islamabad</span>
+              <span class="edu-year">2021 – 2024 | 911/1100</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title reveal">My Tech Stack</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">🧠</div>
+          <h3>Machine Learning</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>Scikit-learn</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="90"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>PyTorch</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="82"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>TensorFlow / Keras</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="80"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>NLP (Transformers, RNNs)</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="78"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">⚙️</div>
+          <h3>MLOps & Deployment</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>Docker</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="85"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>MLflow & DVC</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="83"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>AWS (EC2, S3)</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="80"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>CI/CD Pipelines</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="78"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span class="exposure-tag">Kubernetes <span
+                  class="exp-note">(exposure)</span></span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="40"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">🗄️</div>
+          <h3>Backend & APIs</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>Django & DRF</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="82"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>Express.js (Node)</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="76"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>Laravel (PHP)</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="74"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>.NET (C#)</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="70"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">📊</div>
+          <h3>Data & Databases</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>Pandas / NumPy</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="90"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>MySQL / PostgreSQL</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="85"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>MongoDB</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="80"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>Tableau / Matplotlib</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="82"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">💻</div>
+          <h3>Programming</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>Python</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="93"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="75"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>Java</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="70"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>C# / C++</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="68"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">🌐</div>
+          <h3>Frontend & Tools</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>HTML / CSS / JS</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="80"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>Git & GitHub</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="75"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>Linux / Bash</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="60"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span>Jupyter / VS Code</span>
+              <div class="skill-bar">
+                <div class="skill-fill" data-w="95"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-title reveal">Selected Work</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card featured reveal">
+          <div class="proj-number">01</div>
+          <div class="proj-tag">MLOps · NLP</div>
+          <h3>IMDB Sentiment Analysis — End-to-End MLOps Pipeline</h3>
+          <p>Production-grade sentiment analysis pipeline with data versioning via DVC, experiment tracking with MLflow,
+            containerization with Docker, automated CI/CD, and deployment on AWS. Monitoring configured via Prometheus
+            &amp; Grafana (exposure).</p>
+          <div class="proj-stack">
+            <span>Python</span><span>DVC</span><span>MLflow</span><span>Docker</span><span>AWS</span><span>CI/CD</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="proj-number">02</div>
+          <div class="proj-tag">Healthcare · ML</div>
+          <h3>Liver Patient Prediction Model</h3>
+          <p>Full ML pipeline for predicting liver disease — complete data analysis, preprocessing, feature engineering,
+            and predictive modeling with Scikit-learn. Evaluated with clinical accuracy metrics.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>Matplotlib</span>
+          </div>
+
+        </div>
+
+        <div class="project-card reveal">
+          <div class="proj-number">03</div>
+          <div class="proj-tag">Business · Unsupervised ML</div>
+          <h3>Customer Segmentation Engine</h3>
+          <p>Applied unsupervised learning (K-Means, DBSCAN) to cluster and segment customer data, delivering actionable
+            behavioral insights for data-driven business decisions.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>K-Means</span><span>Seaborn</span><span>Tableau</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="proj-number">04</div>
+          <div class="proj-tag">Full-Stack · Web</div>
+          <h3>Electronic Store — Full-Stack Application</h3>
+          <p>Built a complete e-commerce store using both C# (.NET) and Laravel, implementing full backend logic,
+            responsive frontend views, and relational database management from scratch.</p>
+          <div class="proj-stack">
+            <span>C#</span><span>.NET</span><span>Laravel</span><span>MySQL</span><span>PHP</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <!-- CERTIFICATIONS -->
+  <section class="certifications" id="certifications">
+    <div class="container">
+      <div class="section-label">04 — Certifications</div>
+      <h2 class="section-title reveal">Credentials</h2>
+
+      <div class="certs-grid">
+
+        <!-- IBM -->
+        <div class="cert-card reveal">
+          <div class="cert-badge">IBM</div>
+          <div class="cert-content">
+            <span class="cert-date">June 2025</span>
+            <h3>IBM Machine Learning Professional Certificate</h3>
+            <p>
+              6-course program covering Supervised, Unsupervised, Deep Learning,
+              Reinforcement Learning, Time Series &amp; Survival Analysis with hands-on implementation.
+            </p>
+
+            <a href="Certifications/Machine Learning Professional Certificated.pdf" target="_blank" class="cert-btn">
+              View Certificate →
+            </a>
+          </div>
+        </div>
+
+        <!-- Stanford -->
+        <div class="cert-card reveal">
+          <div class="cert-badge">Stanford</div>
+          <div class="cert-content">
+            <span class="cert-date">2025</span>
+            <h3>Stanford NLP with Deep Learning</h3>
+            <p>
+              Modern neural network approaches for NLP — word embeddings, RNNs,
+              attention mechanisms, and transformer-based models (BERT, GPT architectures).
+            </p>
+          </div>
+        </div>
+
+        <!-- MLOps -->
+        <div class="cert-card reveal">
+          <div class="cert-badge">MLOps</div>
+          <div class="cert-content">
+            <span class="cert-date">Jan 2026</span>
+            <h3>MLOps — Production ML Systems</h3>
+            <p>
+              Hands-on training in production-ready ML systems: DVC, MLflow, Git,
+              MongoDB, automated CI/CD, and cloud-native deployment using Docker &amp; AWS.
+            </p>
+          </div>
+        </div>
+
+        <!-- Data Analytics -->
+        <div class="cert-card reveal">
+          <div class="cert-badge">DA</div>
+          <div class="cert-content">
+            <span class="cert-date">Oct 2024</span>
+            <h3>Data Analytics Essentials</h3>
+            <p>
+              Certified in data analysis, statistics, Excel, SQL, Tableau,
+              and applying modern analytics tools to derive business insights.
+            </p>
+
+            <a href="Certifications/Cisco (Data analytics Certification).pdf" target="_blank" class="cert-btn">
+              View Certificate →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES / FREELANCE OFFER -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-label">05 — What I Offer</div>
+      <h2 class="section-title reveal">Freelance Services</h2>
+      <p class="services-sub reveal">Here's what I can build for you — delivered clean, documented, and on time.</p>
+
+      <div class="services-grid">
+        <div class="service-item reveal">
+          <span class="service-num">01</span>
+          <h3>ML Model Development</h3>
+          <p>Custom machine learning models — classification, regression, clustering, NLP — trained, evaluated, and
+            optimized for your specific data and use case.</p>
+        </div>
+        <div class="service-item reveal">
+          <span class="service-num">02</span>
+          <h3>Data Analysis & Insights</h3>
+          <p>End-to-end data analysis: cleaning, EDA, visualization, and reports that turn messy datasets into clear,
+            actionable business intelligence.</p>
+        </div>
+        <div class="service-item reveal">
+          <span class="service-num">03</span>
+          <h3>Backend API Development</h3>
+          <p>Robust REST APIs using Django or Express.js — integrated with databases, authentication, and ML model
+            endpoints for intelligent applications.</p>
+        </div>
+        <div class="service-item reveal">
+          <span class="service-num">04</span>
+          <h3>ML Deployment & MLOps</h3>
+          <p>Deploy your ML models to production on AWS with Docker containers, CI/CD pipelines, experiment tracking,
+            and model versioning for reliability.</p>
+        </div>
+        <div class="service-item reveal">
+          <span class="service-num">05</span>
+          <h3>NLP Solutions</h3>
+          <p>Sentiment analysis, text classification, named entity recognition, chatbots — powered by transformer models
+            and deep learning techniques.</p>
+        </div>
+        <div class="service-item reveal">
+          <span class="service-num">06</span>
+          <h3>Full-Stack Web Apps</h3>
+          <p>Complete web applications integrating AI features — from database design to frontend views — built with
+            Django or Express backends.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-label">06 — Contact</div>
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <h2 class="section-title">
+            Ready to build<br />
+            <span class="italic-serif">something great?</span>
+          </h2>
+          <p>Whether you need an ML model, a smart backend, or a full AI-powered application — let's discuss your
+            project. I respond within 24 hours.</p>
+          <div class="contact-info">
+            <a href="mailto:mhasnain8694@gmail.com" class="contact-link">
+              <span class="contact-icon">📧</span>
+              mhasnain8694@gmail.com
+            </a>
+            <a href="https://wa.me/923339606472?text=Hi%20Hasnain,%20I%20want%20to%20discuss%20a%20project"
+              target="_blank" class="contact-link">
+              <span class="contact-icon">💬</span>
+              WhatsApp Me
+            </a>
+            <a href="https://github.com/irjiwefiu/" target="_blank" class="contact-link" rel="noopener noreferrer">
+              <span class="contact-icon">💻</span>
+              GitHub Profile
+            </a>
+            <a href="https://www.linkedin.com/in/muhammadhasnain9486" target="_blank" class="contact-link">
+              <span class="contact-icon">🔗</span>
+              LinkedIn Profile
+            </a>
+          </div>
+        </div>
+        <div class="contact-right reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="from_name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="reply_to" placeholder="john@company.com" required />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option>ML Model Development</option>
+                <option>Data Analysis & Insights</option>
+                <option>Backend API Development</option>
+                <option>ML Deployment & MLOps</option>
+                <option>NLP Solutions</option>
+                <option>Full-Stack Web App</option>
+                <option>Other / Let's Discuss</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Project Details</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, timeline, and budget..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">Send Message →</button>
+            <div class="form-success" id="formSuccess">✅ Message sent! I'll reply within 24 hours.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span class="logo-bracket">&lt;</span>MH<span class="logo-bracket">/&gt;</span>
+      </div>
+      <p>© 2025 Muhammad Hasnain. Built with passion for AI.</p>
+      <div class="footer-links">
+        <a href="https://github.com/irjiwefiu/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="www.linkedin.com/in/muhammadhasnain9486">LinkedIn</a>
+        <a href="mailto:mhasnain8694@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- cdn for emailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script>
+    emailjs.init({
+      publicKey: "__EMAILJS_KEY__"
+    });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
